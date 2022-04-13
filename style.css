@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left, bisque, pink);
+    height: 100em;  
+}
+
+h1 {
+    color: blueviolet;
+    cursor: pointer;
+} 
+
+h2 {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.img {
+    border: 5px inset rgb(138, 43, 226);
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+    text-align: center;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+    border: 10px ridge pink;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px rgb(62, 40, 83);
+}
+
+.container {
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.button_poza_inky {
+    background-image: linear-gradient(to bottom, bisque, rgb(187, 132, 238));
+    text-decoration: none;
+    color: rgb(79, 61, 112);
+    padding: .5em 1em;
+    border-radius: 2em;
+    box-shadow: 4px 4px 5px #888;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    transition: all 1.3s;
+    box-shadow: 4px 4px 5px rgb(62, 40, 83);
+    
+}
+
+.design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.container1 {
+    margin-top: 80px;
+    margin-left: 15px;
+    display: flex;
+}
+
+.paragraph {
+    line-height: 50px;
+    font-size: 120%;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Shadows Into Light Two', cursive;
+    padding: 10px;
+}
+
+.special_img {
+    float: right;
+}
